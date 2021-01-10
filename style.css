@@ -1,34 +1,61 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Roboto', sans-serif;
 }
-.half-width{
+.half-width {
     max-width: 1200px;
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
 }
-.tan-1{
+
+.half-width-1 {
     width: 50%;
     float: left;
     overflow: hidden;
 }
-.highlight {
-    color: #a07b15;
+h1 {
+    font-size: 70px;
 }
-
+}
 h1, h2, h3, h4 {
     font-family: 'Bebas Neue', cursive;
-    color: #363958;
+    color: #ca9400;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
-h1 {
-    font-size: 50px;
+.menu-1 {
+        width: 100%;
+        overflow: hidden;
+        text-align: right;
+        padding-right: 80px;
+        margin-top: 20px;
 }
+img {
+    max-width: 100%;
+}
+.highlight {
+    color: #122e8a;
+}
+
 h2 {
     font-size: 40px;
 }
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    margin-bottom: 1.3em;
+}
 
 
 
@@ -36,48 +63,197 @@ h2 {
 
 
 
-
-
-
-
-
-
-
-/***Header***/
-.half-width-header{
-    width: 80%;
-    float: left;
+.header-section {
+    height: 80px;
     overflow: hidden;
 }
-.header-area{
-    height: 100px;
+
 }
-.navigation{
+.navigation {
     list-style: none;
     text-align: right;
-    font-family: 'Roboto', sans-serif;
-    padding: 5px 0px;
-    float: right;
+    font-family: 'Roboto', sans-serif;    
+    padding: 20px 0;
 }
 .navigation li {
     display: inline-block;
-    padding: 20px;
+    padding: 15px;
 }
 .navigation li a {
     text-decoration: none;
-    color: #221d1d;
-    font-size: 20px;
-    line-height: 25px;
+    color: #3c3c3c;
+    font-size: 18px;
+    line-height: 24px;
 }
 
-/***hero***/
-.hireme {
-    margin: 30px 0;
+
+
+
+
+
+
+
+section.hero-sec {
+    padding: 25px 0;
+    overflow: hidden;
 }
-.hireme a {
+.hero-me {
+    padding-top: 20%;
+    overflow: hidden;
+}
+.hire-button {
+    margin: 25px 0;
+}
+.hire-button a {
     text-decoration: none;
-    color: white;
-    background-image: linear-gradient( #FF8063, #F46060);
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( #091292, #7e7cf0);
     padding: 15px 25px;
     border-radius: 5px;
+}
+.hero-pic img {
+    width: 80%;
+}
+
+.herr-pic {
+    text-align: right;
+}
+
+
+
+
+
+
+
+section.about-sec {
+    padding: 25px 0;
+    overflow: hidden;
+    
+}
+.about-pic img {
+    width: 80%;
+}
+.about-me {
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 15%;
+}
+#about-gray{
+    color: gray;
+}
+
+
+
+
+
+
+
+section.last-work {
+    padding: 60px 0;
+    overflow: hidden;
+}
+.last-work h2 {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+.latest-work h3 {
+    margin: 15px 0 10px;
+    font-size: 22px;
+    font-weight: 350;
+}
+ .tan4 {
+    background-color: white;
+    border-radius: 15px;
+    width: 30%;
+    margin: 1%;
+    padding: 5px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    float: left;
+    overflow: hidden;
+}
+
+.latest-work p {
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+.work-inquiry {
+    padding: 50px;
+    text-align: center;
+    overflow: hidden;
+}
+.work-head {
+    width: 70%;
+    margin: 0 auto;
+    padding: 80px;
+    background-image: url(images/chat-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.work-head h2 {
+    color: white;
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin: 13px 0;
+}
+.work-head .hire-button {
+    width: 50%;
+    float: left;
+    text-align: right;
+    margin: 20px 0;
+}
+
+
+
+
+
+
+
+.stay-connected {
+    text-align: center;
+    
+}
+.stay-connected h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #696871;
+}
+.stay-connected h3 {
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+    color: #363958;
+    padding: 5px 0 20px;
+}
+ul.icons {
+    list-style: none;
+}
+ul.icons li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ul.icons li img {
+    width: 30px;
+    padding-bottom: 20px;
+
+}
+
+.customer{
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    margin-left: 200px;
+    box-shadow: 10px 10px 10px rgb(67, 91, 226);
+    border-radius: 5px;
+   
+}
+#hh1{
+    text-align: center;
 }
