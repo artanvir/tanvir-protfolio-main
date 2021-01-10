@@ -26,7 +26,7 @@ body {
 h1 {
     font-size: 70px;
 }
-}
+
 h1, h2, h3, h4 {
     font-family: 'Bebas Neue', cursive;
     color: #ca9400;
@@ -50,6 +50,7 @@ img {
 h2 {
     font-size: 40px;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     font-size: 17px;
@@ -68,7 +69,6 @@ p {
     overflow: hidden;
 }
 
-}
 .navigation {
     list-style: none;
     text-align: right;
