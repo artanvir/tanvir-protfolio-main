@@ -1,7 +1,4 @@
 
-
-
-
 * {
     margin: 0;
     padding: 0;
@@ -25,11 +22,11 @@ body {
 }
 h1 {
     font-size: 70px;
+    color: rgb(189, 8, 8);
 }
 
 h1, h2, h3, h4 {
     font-family: 'Bebas Neue', cursive;
-    color: #ca9400;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -49,6 +46,7 @@ img {
 
 h2 {
     font-size: 40px;
+    color: rgb(48, 148, 1);
 }
 
 p {
@@ -115,7 +113,7 @@ section.hero-sec {
     width: 80%;
 }
 
-.herr-pic {
+.hero-pic {
     text-align: right;
 }
 
@@ -160,6 +158,7 @@ section.last-work {
     margin: 15px 0 10px;
     font-size: 22px;
     font-weight: 350;
+    
 }
  .tan4 {
     background-color: white;
@@ -170,6 +169,7 @@ section.last-work {
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
     float: left;
     overflow: hidden;
+    text-align: center;
 }
 
 .latest-work p {
@@ -256,4 +256,3 @@ ul.icons li img {
 }
 #hh1{
     text-align: center;
-}
